@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
    CustomAdapter customAdapter;
    ListView lstContactsInfo;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,6 +71,8 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected String doInBackground(Void... voids) {
 
+
+            //http://json.parser.online.fr/   website for convert json
             String Address="http://wiadevelopers.ir/api/contacts.json";
 
 
